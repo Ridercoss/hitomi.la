@@ -1,0 +1,24 @@
+{
+  "name": "hitomi.la",
+  "version": "1.0.0",
+  "description": "Get list of works(doujin, video...) on hitomi.la, and download them",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hitomi",
+    "hitomi.la",
+    "manga",
+    "doujin",
+    "adult",
+    "hentai"
+  ],
+  "author": "LiteHell",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "async": "^2.0.1",
+    "extend": "^3.0.0",
+    "request": "^2.74.0"
+  }
+}
