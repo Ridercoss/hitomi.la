@@ -2,6 +2,7 @@ const hitomi = require("./index.js"),
     util = require("util");
 
 // Test: Get list
+// Paremeters : callback(err, list : array<object>)
 hitomi.list(function(err, list) {
     if (err)
         throw err;
@@ -24,6 +25,7 @@ hitomi.list(function(err, list) {
 })
 
 // Test : Get image links
+// Parameters : gallery id, callback(err, list : array<object>)
 hitomi.imageLinks(960795, function(err, links) {
     if (err)
         throw err;
@@ -33,5 +35,6 @@ hitomi.imageLinks(960795, function(err, links) {
     }));
     // excpeted property names:
     // width, height, name, url
+    //
     // name is image name, url is image direct link.
 })
