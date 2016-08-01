@@ -14,6 +14,14 @@
     "adult",
     "hentai"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LiteHell/hitomi.la.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LiteHell/hitomi.la/issues",
+    "email": "LiteHell@openmailbox.org"
+  },
   "author": "LiteHell",
   "license": "AGPL-3.0",
   "dependencies": {
