@@ -17,8 +17,7 @@
   "author": "LiteHell",
   "license": "AGPL-3.0",
   "dependencies": {
-    "async": "^2.0.1",
-    "extend": "^3.0.0",
+    "debug": "^2.2.0",
     "request": "^2.74.0"
   }
 }
