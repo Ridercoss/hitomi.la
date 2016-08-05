@@ -3,6 +3,7 @@ const hitomi = require("./index.js"),
 
 // Test: Get list
 // Paremeters : callback(err, list : array<object>)
+if(false)
 hitomi.list(function(err, list) {
     if (err)
         throw err;
@@ -38,3 +39,15 @@ hitomi.imageLinks(960795, function(err, links) {
     //
     // name is image name, url is image direct link.
 })
+
+// TEST : parse galleryblock
+function galleryBlockCallback(err, result){
+    if(err)
+        throw err;
+    console.log(util.inspect(result, {
+        depth: null,
+        colors: true
+    }));
+}
+hitomi.galleryBlock(873, galleryBlockCallback);
+hitomi.galleryBlock(962132, galleryBlockCallback);
