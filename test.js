@@ -3,7 +3,6 @@ const hitomi = require("./index.js"),
 
 // Test: Get list
 // Paremeters : callback(err, list : array<object>)
-if(false)
 hitomi.list(function(err, list) {
     if (err)
         throw err;
