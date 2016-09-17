@@ -23,27 +23,32 @@ below is example of list object
 ```js
 [
     {
-        id: 1234,
-        type: "manga",
-        name: "a manga"
+        "id":976139,
+        "type":"doujinshi",
+        "artists":["miho rei"],
+        "tags":["female:blindfold","female:milf","male:glasses"],
+        "language":"japanese",
+        "name":"人妻がセックスする本"
     },
     {
-        id: 12345,
-        name: "a artist's cg collection",
-        artists: ["john", "anna"],
-        parodies: ["reality"]
+        "id":976136,
+        "type":"doujinshi",
+        "artists":["miho rei"],
+        "language":"japanese",
+        "name":"人妻がフェラする本"
     },
     {
-        id: 123456
-        name: "a lot of properties",
-        type: "artistcg"
-        artists: ["john", "anna", "kim"],
-        groups: ["a group", "another group"],
-        tags: ["full color", "time stop"],
-        characters: ["ammiya mulzomdayo"],
-        language: "english"
+        "type":"doujinshi",
+        "id":976074,
+        "artists":["mikaduki neko"],
+        "groups":["ameshoo"],
+        "parodies":["touhou project"],
+        "tags":["female:bunny girl","female:loli"],
+        "characters":["tewi inaba"],
+        "language":"korean",
+        "name":"Touhou TS monogatari ~ Tewi-hen ~"
     },
-    // more...
+    // and more galleries....
 ]
 ```
 
