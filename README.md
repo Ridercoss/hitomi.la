@@ -11,7 +11,7 @@ npm install --save hitomi.la
 ### list(callback)
 get full gallery list. look at this example.
 ```js
-const hitomi = require('hitomi');
+const hitomi = require('hitomi.la');
 hitomi.list(function(err, list) {
     if (err)
         throw err;
