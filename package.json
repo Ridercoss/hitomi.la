@@ -1,6 +1,6 @@
 {
   "name": "hitomi.la",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "description": "Get list of works(doujin, video...) on hitomi.la, and download them",
   "main": "index.js",
   "scripts": {
