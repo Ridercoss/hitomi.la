@@ -245,3 +245,18 @@ Output
     height: 300,
     url: 'https://i.hitomi.la/galleries/960795/Cherry_Jam_044.jpg' } ]
 ```
+
+### Search
+#### search.parseQuery(query)
+parses query, this function is not async function, and returns array of object.
+
+This is code example
+```js
+const hitomi = require('hitomi.la');
+let parsedQuery = hitomi.search.parseQuery('artist:somebody language:english -tags:someTag series:something');
+console.log(parsedQuery);
+```
+
+#### search.runQuery(queryObj, list)
+search the list, this is not async func.
+queryObj should be result of `search.parseQuery(query)`.
